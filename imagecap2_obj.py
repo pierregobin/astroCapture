@@ -46,6 +46,12 @@ class ButtonOnOff:
 			session = session+1
 			captureStreamCount = 0
 
+# class for defining parameter of camera
+#       widget : the widget in which the parameter will be set 
+#       camera : the camera to which it is related to
+#       param  : the enum of the param
+#       name   : name of the param
+#       minVal, maxVal : the min & max value this param can get
 class CamParam:
 	i=0
 	def __init__(self,widget,camera,param,name,minVal,maxVal) :
