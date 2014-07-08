@@ -13,6 +13,7 @@ from matplotlib.figure import Figure
 from matplotlib import pyplot as plt
 
 
+
 cam = cv2.VideoCapture(0)
 f = Figure(figsize=(5,4), dpi=100)
 asub=f.add_subplot(111)
