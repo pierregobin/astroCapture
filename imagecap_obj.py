@@ -58,6 +58,7 @@ def reset_value():
 	contrast.reset()
 	saturation.reset()
 
+
 	
 
 if __name__ == "__main__":
